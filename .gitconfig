@@ -76,3 +76,7 @@
 
 [push]
 	default = simple
+
+[user]
+        email = hs@hsingh.com
+        name = Harpreet Singh

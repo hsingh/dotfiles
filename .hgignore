@@ -4,6 +4,9 @@ syntax: glob
 # Compiled Python files
 *.pyc
 
+# Compiled Java files
+*.class
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
