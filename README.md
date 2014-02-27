@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Harpreet’s dotfiles
 
 ## Installation
 
