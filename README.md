@@ -85,7 +85,7 @@ When setting up a new Mac, you may want to install some common Homebrew formulae
 Suggestions/improvements
 [welcome](https://github.com/mathiasbynens/dotfiles/issues)!
 
-## Thanks to…
+## Thanks to...
 
 * [Gianni Chiappetta](http://gf3.ca/) for sharing his [amazing collection of dotfiles](https://github.com/gf3/dotfiles)
 * [Matijs Brinkhuis](http://hotfusion.nl/) and his [dotfiles repository](https://github.com/matijs/dotfiles)
