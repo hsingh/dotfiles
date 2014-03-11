@@ -47,3 +47,4 @@ fi
 
 [ -f ~/.git-completion.sh ] && source ~/.git-completion.sh
 
+eval "$(rbenv init -)"
