@@ -1,0 +1,10 @@
+# @title Spelling
+# @description Set User Dictionary
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Sep 21 11:43:12 EDT 2012
+/instance/org.eclipse.jdt.ui/spelling_user_dictionary=${user_homedir}/.eclipse/eclipse.user.dict
+
+/instance/org.eclipse.ui.editors/occurenceIndicationColor=128,128,192
+file_export_version=3.0

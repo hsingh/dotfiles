@@ -1,0 +1,46 @@
+# @title General Preferences
+# @description General Preferences
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Sep 21 14:28:12 EDT 2012
+
+#Disable Mylyn
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.repositories.synch.schedule=false
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.task.list.tool.tip=false
+/instance/org.eclipse.mylyn.team.ui/org.eclipse.mylyn.team.changesets.manage=false
+/instance/org.eclipse.mylyn.context.ui/org.eclipse.mylyn.ide.ui.expansion.auto.manage=false
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.auto.expand=false
+/default/org.eclipse.mylyn.team.ui/org.eclipse.mylyn.team.changesets.manage=true
+/instance/org.eclipse.mylyn.context.ui/org.eclipse.mylyn.context.ui.navigators.filter.auto.enable=false
+/bundle_defaults/org.eclipse.mylyn.resources.ui/org.eclipse.mylyn.ide.resources.date.modified.exclusion=true
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.notifications.enabled=false
+/instance/org.eclipse.mylyn.context.ui/org.eclipse.mylyn.context.ui.editors.auto.manage=false
+
+#Annotations
+/instance/org.eclipse.ui.editors/warningIndicationInOverviewRuler=false
+/instance/org.eclipse.ui.editors/Accessibility.UseSaturatedColors=true
+/instance/org.eclipse.ui.editors/occurrenceIndicationColor=128,128,255
+/instance/org.eclipse.ui.editors/searchResultIndicationColor=255,128,64
+
+#Appearance
+/instance/org.eclipse.ui.workbench/overridepresentation=true
+
+#Disable CVS Support
+/instance/org.eclipse.ui.workbench/UIActivities.org.eclipse.team.cvs=false
+
+#Tab apperance
+/instance/org.eclipse.ui/SHOW_TRADITIONAL_STYLE_TABS=true
+/instance/org.eclipse.ui/SHOW_TEXT_ON_PERSPECTIVE_BAR=false
+
+#Font
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Consolas|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+
+#Work Items
+/instance/com.ibm.team.workitem.rcp.ui/com.ibm.team.workitem.active.trim=false
+/instance/com.ibm.team.workitem.rcp.ui/com.ibm.team.workitem.rcp.ui.SearchBarGroup=false
+
+#Templates
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="javadoc" deleted\="false" description\="author name" enabled\="true" id\="org.eclipse.jdt.ui.templates.author" name\="@author">@author &lt;a href\="mailto\:${user}@ca.com"&gt;Harpreet Singh&lt;/a&gt;</template></templates>
+
+file_export_version=3.0
