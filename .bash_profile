@@ -38,10 +38,15 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
+if [ type brew > /dev/null 2>&1 ]; then
+ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
+ fi
 fi
 
 [ -f ~/.git-completion.sh ] && source ~/.git-completion.sh
 
-eval "$(rbenv init -)"
+if [ type rbenv > /dev/null 2>&1 ]; then
+  eval "$(rbenv init -)"
+fi
+
