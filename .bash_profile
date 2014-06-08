@@ -42,6 +42,10 @@ if [ type brew > /dev/null 2>&1 ]; then
  if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
  fi
+elif [ -f /etc/bash_completion ]; then
+	source /etc/bash_completion;
+fi;
+
 fi
 
 [ -f ~/.git-completion.sh ] && source ~/.git-completion.sh
