@@ -158,3 +158,6 @@
 [user]
   email = harpreet@mailinator.com
   name = Harpreet Singh
+
+[commit]
+	template = ~/.git_commit_msg.txt
