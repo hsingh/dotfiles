@@ -1,11 +1,11 @@
-source ~/Projects/zshuery/zshuery.sh
+source ~/Projects/personal/zshuery/zshuery.sh
 load_defaults
 load_aliases
 load_lol_aliases
-load_completion ~/Projects/zshuery/completion
+load_completion ~/Projects/personal/zshuery/completion
 load_correction
 
-source ~/Projects/zshuery/agnoster.zsh-theme
+source ~/Projects/personal/zshuery/agnoster.zsh-theme
 
 export EDITOR='nano'
 
